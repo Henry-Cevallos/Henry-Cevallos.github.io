@@ -3,3 +3,8 @@
     min-height: 5rem;
     min-width: 5rem;
 }
+
+.Link-box {
+    display: flex;
+}
+

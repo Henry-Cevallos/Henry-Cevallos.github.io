@@ -10,7 +10,7 @@ function App() {
 
       <header className="App-header">
         
-        <Avatar className='Avatar' alt='Henry Cevallos'>HC</Avatar>
+        <Avatar className='Avatar' alt='Henry Cevallos' sx={{width: 150, height: 150, fontSize: 50}}>HC</Avatar>
 
         <div className='Link-box'>
           <LinkItem iconName='github' description='Github Profile'/>
@@ -21,7 +21,16 @@ function App() {
 
       </header>
 
-      <body>
+      <body className='App-body'>
+
+        <div className='Section-start About-Section'>
+          <h2 className='Section-title'>About Me</h2>
+          <div className='About-text'>
+          Hi! I'm Henry an aspiring software engineer looking to provide smart solutions to everyday problems.
+          Currently I am a Computer Science student graduating May 2022 Magna Cum laude. I am looking to apply
+          all my knowledge in a meaningful way within the tech industry.
+          </div>
+        </div>
 
       </body>
     </div>

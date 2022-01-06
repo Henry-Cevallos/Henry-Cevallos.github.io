@@ -1,0 +1,7 @@
+.Link-item {
+    display: flex;
+}
+
+.description {
+    padding-left: 1rem;
+}

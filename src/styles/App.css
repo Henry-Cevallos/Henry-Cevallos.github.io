@@ -1,5 +1,8 @@
 .Avatar {
     margin-inline: auto;
+    font-size: 5em;
+    width: 2em;
+    min-height: 2em;
 }
 
 .Link-box {

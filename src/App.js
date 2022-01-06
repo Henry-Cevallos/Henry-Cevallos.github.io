@@ -7,8 +7,10 @@ import LinkItem from './components/LinkItem';
 function App() {
   return (
     <div className="App">
+
       <header className="App-header">
-        <Avatar className='Avatar' sx={{width: 200, height: 200}}>HC</Avatar>
+        
+        <Avatar className='Avatar' alt='Henry Cevallos'>HC</Avatar>
 
         <div className='Link-box'>
           <LinkItem iconName='github' description='Github Profile'/>
@@ -16,7 +18,12 @@ function App() {
           <LinkItem iconName='email' description='Email'/>
           <LinkItem iconName='location' description='New York, NY'/>
         </div>
+
       </header>
+
+      <body>
+
+      </body>
     </div>
   );
 }

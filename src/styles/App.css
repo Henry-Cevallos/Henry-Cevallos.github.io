@@ -1,10 +1,10 @@
 .Avatar {
     margin-inline: auto;
-    min-height: 5rem;
-    min-width: 5rem;
 }
 
 .Link-box {
     display: flex;
+    justify-content: space-evenly;
 }
+
 

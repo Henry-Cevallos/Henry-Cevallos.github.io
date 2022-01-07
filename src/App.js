@@ -3,8 +3,15 @@ import { Avatar } from '@mui/material';
 import './styles/App.css';
 import LinkItem from './components/LinkItem';
 import Carousel from './components/Carousel';
+import chessBg from './media/chess.png';
+import homeassistantBg from './media/homeassistant.png';
+import programmingBg from './media/programming.jpeg';
+import twitchBg from './media/twitch.png';
 
 function App() {
+
+  const images = [programmingBg, homeassistantBg, chessBg, twitchBg];
+
   return (
     <div className="App">
 
@@ -32,9 +39,9 @@ function App() {
           </div>
         </div>
 
-        <div className='Section-start Hobbies-section'>
+        <div className='Hobbies-section'>
           <h2 className='Section-title'>Hobbies</h2>
-          <Carousel />
+          <Carousel images={images}/>
         </div>
 
       </body>

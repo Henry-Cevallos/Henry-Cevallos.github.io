@@ -2,7 +2,7 @@ import React from 'react';
 import { Avatar } from '@mui/material';
 import './styles/App.css';
 import LinkItem from './components/LinkItem';
-
+import Carousel from './components/Carousel';
 
 function App() {
   return (
@@ -23,13 +23,18 @@ function App() {
 
       <body className='App-body'>
 
-        <div className='Section-start About-Section'>
+        <div className='Section-start About-section'>
           <h2 className='Section-title'>About Me</h2>
           <div className='About-text'>
           Hi! I'm Henry an aspiring software engineer looking to provide smart solutions to everyday problems.
           Currently I am a Computer Science student graduating May 2022 Magna Cum laude. I am looking to apply
           all my knowledge in a meaningful way within the tech industry.
           </div>
+        </div>
+
+        <div className='Section-start Hobbies-section'>
+          <h2 className='Section-title'>Hobbies</h2>
+          <Carousel />
         </div>
 
       </body>

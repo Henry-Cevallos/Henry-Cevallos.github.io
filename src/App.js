@@ -41,7 +41,7 @@ function App() {
 
         <div className='Hobbies-section'>
           <h2 className='Section-title'>Hobbies</h2>
-          <Carousel images={images}/>
+          <Carousel images_array={images}/>
         </div>
 
       </body>

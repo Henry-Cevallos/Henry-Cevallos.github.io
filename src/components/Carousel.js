@@ -8,7 +8,7 @@ const Carousel = ({images_array}) => {
 
     const increaseIndex = () => {
 
-        if(image_index < images_array.length)
+        if(image_index < images_array.length - 1)
             Setimage_index(image_index+1);
     }
 
@@ -24,7 +24,7 @@ const Carousel = ({images_array}) => {
                 <ArrowCircleLeft />
             </div>
 
-            <div className='col pictures' >
+            <div className='col pictures'style={{backgroundImage: `url(${images_array[image_index]})`}} >
                 {image_index}
             </div>
 

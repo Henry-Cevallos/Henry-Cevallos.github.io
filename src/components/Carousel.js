@@ -20,15 +20,15 @@ const Carousel = ({images_array}) => {
         <div className='Carousel-start'>
             <div className='row'>
 
-            <div className='col' onClick={() => decreaseIndex()}>
+            <div className='col arrow' onClick={() => decreaseIndex()}>
                 <ArrowCircleLeft />
             </div>
 
-            <div className='col pictures'style={{backgroundImage: `url(${images_array[image_index]})`}} >
-                {image_index}
+            <div className='col pictures'style={{/*backgroundImage: `url(${images_array[image_index]})`*/}} >
+                <img src={images_array[image_index]} alt='hobby' />
             </div>
 
-            <div className='col'  onClick={() => increaseIndex()}>
+            <div className='col arrow'  onClick={() => increaseIndex()}>
                 <ArrowCircleRight />
             </div>
 

@@ -24,8 +24,8 @@ const Carousel = ({images_array}) => {
                 <ArrowCircleLeft />
             </div>
 
-            <div className='col pictures'style={{/*backgroundImage: `url(${images_array[image_index]})`*/}} >
-                <img src={images_array[image_index]} alt='hobby' />
+            <div className='col pictures'style={{/*backgroundImage: `url(${images_array[image_index]})`*/}} >  
+                <img src={images_array[image_index]} alt='hobby' />            
             </div>
 
             <div className='col arrow'  onClick={() => increaseIndex()}>

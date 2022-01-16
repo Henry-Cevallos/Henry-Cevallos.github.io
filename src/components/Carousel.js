@@ -25,7 +25,10 @@ const Carousel = ({images_array}) => {
             </div>
 
             <div className='col pictures'style={{/*backgroundImage: `url(${images_array[image_index]})`*/}} >  
-                <img src={images_array[image_index]} alt='hobby' />            
+                <img src={images_array[image_index]} alt='hobby' />
+                <div className='caption'>
+                    <h3>Yo</h3>
+                </div>           
             </div>
 
             <div className='col arrow'  onClick={() => increaseIndex()}>

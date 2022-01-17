@@ -12,8 +12,9 @@
 .pictures {
   max-width: 500px;
   max-height: 500px;
-  border-color: black;
+  border-color: red;
   border-style: dotted;
+  position: relative;
   
 }
 
@@ -25,4 +26,16 @@ img{
 .arrow {
     align-self: center;
     padding-inline: 2rem;
+}
+
+.caption {
+    border-style: dotted;
+    position: absolute;
+    color: white;
+    background-color: #000;
+    opacity: .80;
+    
+    top: 0;
+    left: 0;
+    
 }

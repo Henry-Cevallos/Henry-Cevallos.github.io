@@ -11,6 +11,7 @@ import twitchBg from './media/twitch.png';
 function App() {
 
   const images = [programmingBg, homeassistantBg, chessBg, twitchBg];
+  const titles = ['Software Development', 'IOT/Smart Home Tech', 'Chess', 'Twitch Streams'];
 
   return (
     <div className="App">
@@ -41,7 +42,7 @@ function App() {
 
         <div className='Hobbies-section'>
           <h2 className='Section-title'>Hobbies</h2>
-          <Carousel images_array={images}/>
+          <Carousel images_array={images} headings={titles}/>
         </div>
 
       </body>

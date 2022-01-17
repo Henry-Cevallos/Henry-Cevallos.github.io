@@ -10,10 +10,8 @@
     width: 75%;
 }
 .pictures {
-  max-width: 500px;
+  min-width: min(80%, 500px);
   max-height: 500px;
-  border-color: red;
-  border-style: dotted;
   position: relative;
   
 }
@@ -29,13 +27,13 @@ img{
 }
 
 .caption {
-    border-style: dotted;
     position: absolute;
-    color: white;
-    background-color: #000;
-    opacity: .80;
-    
-    top: 0;
-    left: 0;
+    color: black;
+    background-color: #fff;
+    opacity: .60;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-align: center;
     
 }

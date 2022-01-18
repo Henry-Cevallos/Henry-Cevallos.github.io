@@ -1,0 +1,39 @@
+.Carousel-start {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+}
+.pictures {
+  min-width: min(80%, 500px);
+  max-height: 500px;
+  position: relative;
+  
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.arrow {
+    align-self: center;
+    padding-inline: 2rem;
+}
+
+.caption {
+    position: absolute;
+    color: black;
+    background-color: #fff;
+    opacity: .60;
+    bottom: 25%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+    text-align: center;
+    
+}

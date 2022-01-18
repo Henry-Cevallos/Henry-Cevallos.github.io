@@ -8,14 +8,16 @@ const Carousel = ({images_array, headings}) => {
     const [image_index, Setimage_index] = useState(0);
 
     const increaseIndex = () => {
-
-        if(image_index < images_array.length - 1)
-            Setimage_index(image_index+1);
+            Setimage_index((image_index+1) % images_array.length);
     }
 
     const decreaseIndex = () => {
-        if(image_index !== 0)
-            Setimage_index(image_index-1);
+
+        if(image_index === 0){
+            Setimage_index(images_array.length-1);
+            return;
+        }
+        Setimage_index(image_index-1);
     }
     return (
         <div className='Carousel-start'>

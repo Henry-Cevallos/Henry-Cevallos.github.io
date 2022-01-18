@@ -24,8 +24,8 @@ const Carousel = ({images_array, headings}) => {
         const next = (image_index + 1) % images_array.length;
         const id = setTimeout(() => Setimage_index(next), 5000);
         return () => clearTimeout(id);
-    }, [image_index]);
-    
+    }, [image_index]); // eslint-disable-line react-hooks/exhaustive-deps
+
     return (
         <div className='Carousel-start'>
             <div className='row'>

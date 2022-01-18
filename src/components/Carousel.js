@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../styles/Carousel.css';
 import {ArrowCircleLeft, ArrowCircleRight} from '@mui/icons-material';
 import Circle from './Circle';
@@ -19,6 +19,13 @@ const Carousel = ({images_array, headings}) => {
         }
         Setimage_index(image_index-1);
     }
+
+    useEffect(() => {
+        const next = (image_index + 1) % images_array.length;
+        const id = setTimeout(() => Setimage_index(next), 5000);
+        return () => clearTimeout(id);
+    }, [image_index]);
+    
     return (
         <div className='Carousel-start'>
             <div className='row'>

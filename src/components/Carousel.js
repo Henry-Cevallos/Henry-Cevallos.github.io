@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/Carousel.css';
 import {ArrowCircleLeft, ArrowCircleRight} from '@mui/icons-material';
+import Circle from './Circle';
 
 const Carousel = ({images_array, headings}) => {
 
@@ -36,6 +37,9 @@ const Carousel = ({images_array, headings}) => {
             </div>
 
             </div>
+
+            <Circle enabled={true} />
+            <Circle enabled={false} />
         </div>
     )
 }

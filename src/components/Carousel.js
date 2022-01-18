@@ -29,7 +29,13 @@ const Carousel = ({images_array, headings}) => {
                 <img src={images_array[image_index]} alt='hobby' />
                 <div className='caption'>
                     <div>{headings[image_index]}</div>
-                </div>           
+                </div>
+                <div className='circles'>
+                    <Circle enabled={image_index === 0}/>
+                    <Circle enabled={image_index === 1}/>
+                    <Circle enabled={image_index === 2}/>
+                    <Circle enabled={image_index === 3}/>
+                </div>         
             </div>
 
             <div className='col arrow'  onClick={() => increaseIndex()}>
@@ -38,8 +44,7 @@ const Carousel = ({images_array, headings}) => {
 
             </div>
 
-            <Circle enabled={true} />
-            <Circle enabled={false} />
+            
         </div>
     )
 }

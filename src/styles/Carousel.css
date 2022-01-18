@@ -37,3 +37,10 @@ img{
     text-align: center;
     
 }
+
+.circles {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+}

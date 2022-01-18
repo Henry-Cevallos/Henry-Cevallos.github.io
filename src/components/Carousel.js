@@ -51,9 +51,7 @@ const Carousel = ({images_array, headings}) => {
                 <ArrowCircleRight />
             </div>
 
-            </div>
-
-            
+            </div>        
         </div>
     )
 }

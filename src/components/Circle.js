@@ -6,8 +6,8 @@ const Circle = ({ enabled }) => {
 
     return (
         enabled
-        ? <CircleEnabled />
-        : <CircleDisabled />
+        ? <CircleEnabled sx={{color: '#fff', fontSize: 15}}/>
+        : <CircleDisabled sx={{color: '#fff', fontSize: 15}}/>
     )
 }
 

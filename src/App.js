@@ -45,6 +45,10 @@ function App() {
           <Carousel images_array={images} headings={titles}/>
         </div>
 
+        <div className='Projects-section'>
+          <h2 className='Section-title'>Projects</h2>
+        </div>
+
       </body>
     </div>
   );

@@ -3,6 +3,7 @@ import { Avatar } from '@mui/material';
 import './styles/App.css';
 import LinkItem from './components/LinkItem';
 import Carousel from './components/Carousel';
+import Projects from './components/Projects';
 import chessBg from './media/chess.png';
 import homeassistantBg from './media/homeassistant.png';
 import programmingBg from './media/programming.jpeg';
@@ -47,6 +48,7 @@ function App() {
 
         <div className='Projects-section'>
           <h2 className='Section-title'>Projects</h2>
+          <Projects />
         </div>
 
       </body>

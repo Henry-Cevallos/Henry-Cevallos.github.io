@@ -2,3 +2,7 @@
     border-style: dotted;
     border-color: blueviolet;
 }
+
+.project-item:hover {
+    transform: scaleY(1.5);
+}

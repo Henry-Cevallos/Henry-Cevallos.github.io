@@ -1,4 +1,4 @@
-.Projects-start {
+.projects-start {
     display: flex;
     justify-content: center;
 }
@@ -8,3 +8,4 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     border-style: dotted;
 }
+

@@ -8,10 +8,13 @@ import chessBg from './media/chess.png';
 import homeassistantBg from './media/homeassistant.png';
 import programmingBg from './media/programming.jpeg';
 import twitchBg from './media/twitch.png';
+import schedulefriendsBg from './media/ScheduleFriends.png';
+import travelerslog from './media/TravelersLog.svg';
 
 function App() {
 
   const images = [programmingBg, homeassistantBg, chessBg, twitchBg];
+  const projects = [schedulefriendsBg, travelerslog];
   const titles = ['Software Development', 'IOT/Smart Home Tech', 'Chess', 'Twitch Streams'];
 
   return (
@@ -48,7 +51,7 @@ function App() {
 
         <div className='Projects-section'>
           <h2 className='Section-title'>Projects</h2>
-          <Projects />
+          <Projects projects={projects}/>
         </div>
 
       </body>

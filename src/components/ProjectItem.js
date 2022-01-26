@@ -1,11 +1,11 @@
 import React from "react";
 import '../styles/ProjectsItem.css';
 
-const ProjectItem = ( {title}) => {
+const ProjectItem = ( {title, project}) => {
 
     return(
         <div className="project-item">
-            {title}
+            <img src={project} alt='project'/>
         </div>
     )
     

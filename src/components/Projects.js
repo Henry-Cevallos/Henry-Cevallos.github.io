@@ -8,7 +8,7 @@ const Projects = ({projects}) => {
         <div className='projects-start'>
             <div className='project-card'>
                 <ProjectItem title='Schedule.Friends' project={projects[0]}/>
-                <ProjectItem title='Travelers Log' projects={projects[1]}/>
+                <ProjectItem title='Travelers Log' project={projects[1]}/>
                 <ProjectItem title='Web Dev'/>
                 <ProjectItem title='Spell Checker'/>
             </div>

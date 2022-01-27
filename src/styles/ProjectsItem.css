@@ -4,5 +4,5 @@
 }
 
 .project-item:hover {
-    transform: scaleY(1.5);
+    transform: scaleY(1.15);
 }

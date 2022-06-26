@@ -10,11 +10,13 @@ import programmingBg from './media/programming.jpeg';
 import twitchBg from './media/twitch.png';
 import schedulefriendsBg from './media/ScheduleFriends.png';
 import travelerslog from './media/TravelersLog.svg';
+import campusManager from './media/campus.png';
+import spellChecker from './media/spellcheck.png';
 
 function App() {
 
   const images = [programmingBg, homeassistantBg, chessBg, twitchBg];
-  const projects = [schedulefriendsBg, travelerslog];
+  const projects = [schedulefriendsBg, travelerslog, campusManager, spellChecker];
   const titles = ['Software Development', 'IOT/Smart Home Tech', 'Chess', 'Twitch Streams'];
 
   return (
@@ -25,8 +27,8 @@ function App() {
         <Avatar className='Avatar' alt='Henry Cevallos' sx={{width: 150, height: 150, fontSize: 50}}>HC</Avatar>
 
         <div className='Link-box'>
-          <LinkItem iconName='github' description='Github Profile'/>
-          <LinkItem iconName='linkedin' description='LinkedIn Profile'/>
+          <LinkItem iconName='github' description='Github'/>
+          <LinkItem iconName='linkedin' description='LinkedIn'/>
           <LinkItem iconName='email' description='Email'/>
           <LinkItem iconName='location' description='New York, NY'/>
         </div>
@@ -39,7 +41,8 @@ function App() {
           <h2 className='Section-title'>About Me</h2>
           <div className='About-text'>
           Hi! I'm Henry an aspiring software engineer looking to provide smart solutions to everyday problems.
-          Currently I am a Computer Science student graduating May 2022 Magna Cum laude. I am looking to apply
+          I recenty graduated from Hunter College Magna Cum Laude and recieved departemental honors for Computer Science. I majored in 
+          Computer Science and minored in Mathematics. I am looking to apply
           all my knowledge in a meaningful way within the tech industry.
           </div>
         </div>

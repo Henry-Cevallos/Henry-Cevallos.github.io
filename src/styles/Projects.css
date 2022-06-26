@@ -6,7 +6,7 @@
 .project-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    border-style: dotted;
+    
     width: 60%;
     min-height: 200px;
 }

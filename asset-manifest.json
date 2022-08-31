@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f0bfdecb.css",
+    "main.js": "/static/js/main.f79f9bb7.js",
+    "static/js/787.17bc2e3e.chunk.js": "/static/js/787.17bc2e3e.chunk.js",
+    "static/media/Henry_Cevallos_Resume_safe.pdf": "/static/media/Henry_Cevallos_Resume_safe.5a3d104894e805642b36.pdf",
+    "static/media/programming.jpeg": "/static/media/programming.84c5e1c23e8a58bf6e92.jpeg",
+    "static/media/chess.png": "/static/media/chess.269eadc020fd7e4ddef6.png",
+    "static/media/ScheduleFriends.png": "/static/media/ScheduleFriends.80e403c7d2ae8d7d3b82.png",
+    "static/media/homeassistant.png": "/static/media/homeassistant.d93d5862c9ef90668720.png",
+    "static/media/TravelersLog.svg": "/static/media/TravelersLog.f200f36aac5e5153105f84d01e0c51b2.svg",
+    "static/media/HenryPicture.jpeg": "/static/media/HenryPicture.87290a0e8dff71c43932.jpeg",
+    "static/media/campus.png": "/static/media/campus.ac8d19bd639d13703ea4.png",
+    "static/media/spellcheck.png": "/static/media/spellcheck.e88a3c4333f2bb80b138.png",
+    "index.html": "/index.html",
+    "main.f0bfdecb.css.map": "/static/css/main.f0bfdecb.css.map",
+    "main.f79f9bb7.js.map": "/static/js/main.f79f9bb7.js.map",
+    "787.17bc2e3e.chunk.js.map": "/static/js/787.17bc2e3e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f0bfdecb.css",
+    "static/js/main.f79f9bb7.js"
+  ]
+}

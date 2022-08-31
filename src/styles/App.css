@@ -95,6 +95,10 @@
 div .MuiAvatar-root{
     animation: bounce-top 1000ms ease-out;
 }
+
+div .Section-bg{
+    animation: grow 400ms;
+}
 @keyframes slide-left{
     0%{
         transform: translateX(-1000%);

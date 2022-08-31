@@ -74,3 +74,72 @@
 .shadow {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
+
+.link-boxes > div .MuiGrid-root:first-child{
+    animation: slide-left 400ms;
+}
+
+.link-boxes > div .MuiGrid-root:nth-child(3){
+    animation: slide-right 400ms;
+}
+
+.link-boxes > div .MuiGrid-root:nth-child(2){
+    animation: grow 400ms;
+}
+
+.link-boxes > div .MuiGrid-root:nth-child(4), .link-boxes > div .MuiGrid-root:nth-child(5){
+    animation: slide-top 400ms;
+}
+
+
+div .MuiAvatar-root{
+    animation: bounce-top 1000ms ease-out;
+}
+@keyframes slide-left{
+    0%{
+        transform: translateX(-1000%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes slide-right{
+    0%{
+        transform: translateX(1000%);
+    }
+
+    100%{
+        transform: translateX(0);
+    }
+}
+
+@keyframes bounce-top {
+    0%{
+        transform: translateY(-1000%);
+    }
+	20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+@keyframes slide-top{
+    0%{
+        transform: translateY(-1000%);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+}
+
+@keyframes grow{
+    0%{
+        transform: scale(0);
+    }
+
+    100%{
+        transform: scale(100%);
+    }
+}

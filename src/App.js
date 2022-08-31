@@ -44,6 +44,7 @@ function App() {
         </Avatar>
 
         <br />
+        <div className="link-boxes">
         <Grid container justifyContent="center" alignItems="center" spacing={2}>
           
             <Grid item xs={12} md={4}>
@@ -81,6 +82,7 @@ function App() {
             </Grid>
           
         </Grid>
+        </div>
         <div className="Section-start About-section Section-bg shadow">
           <h1 className="Section-title">About Me</h1>
           <div className="About-text">

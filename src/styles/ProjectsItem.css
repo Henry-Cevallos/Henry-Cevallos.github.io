@@ -1,8 +1,11 @@
 .project-item {
     border-style: solid;
-    border-color: blueviolet;
+    border-color: #ffff;
+    height: 100%;
+
 }
 
 .project-item:hover {
-    transform: scaleY(1.15);
+    transform: scaleY(1.10);
+    border-color: aquamarine;
 }

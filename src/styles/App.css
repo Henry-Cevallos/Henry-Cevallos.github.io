@@ -1,6 +1,7 @@
 .Avatar {
     margin-inline: auto;
     margin-top: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .Link-box {
@@ -11,16 +12,65 @@
 
 .Section-title {
     font-weight: normal;
-    font-size: 2em;
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
 }
 .Section-start {
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .About-text {
     width: 75%;
+}
+
+.App-body {
+    background-color:#272626;
+    width: 85%;
+    margin-inline: auto;
+    border-radius: 1.5%;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.App-header{
+    margin-top: 2rem;
+
+}
+
+.Section-bg{
+    background-color: #383838;
+    width: 75%;
+    margin-inline: auto;
+    border-radius: 2%;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+    
+
+}
+
+#root, html {
+    background-color: #131312;
+    color:#ffff;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.link{
+    text-decoration: underline;
+}
+
+.link:hover{
+    color:aquamarine
+}
+
+.shadow {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }

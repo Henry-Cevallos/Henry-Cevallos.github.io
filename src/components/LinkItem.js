@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/LinkedItem.css';
-import { GitHub, LinkedIn, Email, LocationOn} from '@mui/icons-material';
+import { GitHub, LinkedIn, Email, LocationOn, ContactPage} from '@mui/icons-material';
 
-const LinkItem = ({ iconName, description }) => {
+const LinkItem = ({ iconName, description, url }) => {
 
     let icon = <GitHub />
     
@@ -15,14 +15,19 @@ const LinkItem = ({ iconName, description }) => {
     if(iconName === 'location')
         icon = <LocationOn />
     
+    if(iconName === 'resume')
+        icon = <ContactPage />
+        
     return (
-        <div className='Link-item'>
+        <a href={url}>
+        <div className='Link-item shadow'>
             {icon}
             <div className='description'>
                 {description}
             </div>
             
         </div>
+        </a>
     )
 }
 

@@ -4,7 +4,7 @@ import '../styles/ProjectsItem.css';
 const ProjectItem = ( {title, project, url}) => {
 
     const openNewTab = link => {
-        window.open(link, '_blank', 'noopener,noreferrer');
+        window.open(link, '_self', 'noopener,noreferrer');
     };
 
     return(

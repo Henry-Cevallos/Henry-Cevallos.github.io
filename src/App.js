@@ -88,7 +88,7 @@ function App() {
           <div className="About-text">
             Hi! I'm Henry, an aspiring software engineer looking to provide
             smart solutions to everyday problems. I recenty graduated from
-            Hunter College Magna Cum Laude and recieved departemental honors for
+            Hunter College Magna Cum Laude and received departmental honors for
             Computer Science. I majored in Computer Science and minored in
             Mathematics. I am looking to apply all my knowledge in a meaningful
             way within the tech industry.
